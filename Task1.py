@@ -165,6 +165,7 @@ for t in feb_dates:
 
 
 df_results = pd.DataFrame(results)
+df_results.to_csv("results_task1.csv", index=False)
 
 # Print values of all the four moments for all the constituents of S&P500 and SPX Index
 # print(df_results.to_string(index=False))
